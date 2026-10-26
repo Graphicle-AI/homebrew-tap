@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.7"
+  version "0.1.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.7/graphicle-0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "ab3016762c619d27426b344ef49f759c282906fd619d75fe8d7773af82e6e20a"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.8/graphicle-0.1.8-aarch64-apple-darwin.tar.gz"
+      sha256 "1a704a4d50754398c40736603a6ea61b0178f9bb6d3214e82af08b9463ca770f"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.7/graphicle-0.1.7-x86_64-apple-darwin.tar.gz"
-      sha256 "23137081a15437de46fa663ea9dc0c1c921362125a59c70d1c3f0165742960c5"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.8/graphicle-0.1.8-x86_64-apple-darwin.tar.gz"
+      sha256 "38529a5406bdd6e89140420a6309c496071677383c18df7ebbaf1d574dc7b1db"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.7/graphicle-0.1.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f58961e34f9889535e785f1ce1fe5a359d0d6dbfa9632f05f8dffd7c59ed27f"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.8/graphicle-0.1.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f3d74e0cb66fc203b68a62c40c569f1e56b6d95d09b390dc45d7b8a19167ced2"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.7/graphicle-0.1.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "262bea89b9dfa2efc6e6e243ba1fd4be1caabbd9c009c019c3337c2adb97683c"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.8/graphicle-0.1.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "654a7cb9f23758278c50ea2ed996920fa8875b5f09eac10ba2651fe9c4407f12"
     end
   end
 
