@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.9"
+  version "0.1.10"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.9/graphicle-0.1.9-aarch64-apple-darwin.tar.gz"
-      sha256 "c407423b29c6a55b47696b85e9dc78a455dbef21f150298345242b205776e9e2"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.10/graphicle-0.1.10-aarch64-apple-darwin.tar.gz"
+      sha256 "35c9fc328b10ea933b6c6afd994b884962900f5970a5fa05ff0e698e019e614b"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.9/graphicle-0.1.9-x86_64-apple-darwin.tar.gz"
-      sha256 "8bff67858a29230d51b0c904f92aec1d103c4de4cf9ab20534899fdde2b91e30"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.10/graphicle-0.1.10-x86_64-apple-darwin.tar.gz"
+      sha256 "532b0d1fb2a3d795a26bc6ce9e85ecb328c7e5fdad3ced3093c60fda261a7853"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.9/graphicle-0.1.9-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8f2461b648969c61b1802fbcb40abc24f39a9115c2d1402940ba14f39c4f6ff4"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.10/graphicle-0.1.10-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ee1d8e3ec49847e8458c5513557f4ca148c53f44174d6eb8a2d3cb4a2976ccb9"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.9/graphicle-0.1.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d8de215e0a89f3c940173fc33d3eea73ef3df346ae821889f34b58424ee2014d"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.10/graphicle-0.1.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "12eb500d31acc4e26fbc5a4e634209f9b6190b0780f60754e66686554a0bcb3e"
     end
   end
 
