@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.11"
+  version "0.1.12"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.11/graphicle-0.1.11-aarch64-apple-darwin.tar.gz"
-      sha256 "1a209b0036d6df82155aa5352d03b0b0c62fcd9cde44490f6fa429aacb9f8bfe"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-aarch64-apple-darwin.tar.gz"
+      sha256 "83e795339e8cfa160a1f0ead7564acda5126b2c1ff7ee3f94c7e1fd5bfb0f038"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.11/graphicle-0.1.11-x86_64-apple-darwin.tar.gz"
-      sha256 "164ceb95aa865bcc5caab34334598c51f46eebee2f65ebee752fa126ffb10807"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-x86_64-apple-darwin.tar.gz"
+      sha256 "8ea2506d5a92fa171638ab7b60ef024fc82344b8ab6b1d824f9a3d9f3d632fab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.11/graphicle-0.1.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9f45661168ef309c68ab4d61dc016c9525030f97debb513d25b3265598650d0d"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3f242a96b92335d78380d7ab9d4e8a22d39efbe1e11872d2d7dd4f2fe8f4923b"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.11/graphicle-0.1.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bd6c0b8cb3e793b0ed28ec4f8e7a3f03de85e8b3c4be7cd8cc7a92747be09838"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "76f2b7a189a54e51273a7a93557463d1b68ae78e8299d0f4141802b62a9fbecb"
     end
   end
 
