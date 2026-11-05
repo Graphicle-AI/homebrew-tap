@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.12"
+  version "0.1.13"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-aarch64-apple-darwin.tar.gz"
-      sha256 "83e795339e8cfa160a1f0ead7564acda5126b2c1ff7ee3f94c7e1fd5bfb0f038"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.13/graphicle-0.1.13-aarch64-apple-darwin.tar.gz"
+      sha256 "0c5ad8ec0e62376602a8ba50b4767a38cccf602615c2debebcc31bb637754cd2"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-x86_64-apple-darwin.tar.gz"
-      sha256 "8ea2506d5a92fa171638ab7b60ef024fc82344b8ab6b1d824f9a3d9f3d632fab"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.13/graphicle-0.1.13-x86_64-apple-darwin.tar.gz"
+      sha256 "b778cc5de6c0d928f236800d7d9389c1fcbe86b247f1570d72c9c8b83b824eda"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f242a96b92335d78380d7ab9d4e8a22d39efbe1e11872d2d7dd4f2fe8f4923b"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.13/graphicle-0.1.13-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e9e65d71087a37564c1c858f51f6202e3d3356f4f2baa111fb0f3131afbeef38"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.12/graphicle-0.1.12-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "76f2b7a189a54e51273a7a93557463d1b68ae78e8299d0f4141802b62a9fbecb"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.13/graphicle-0.1.13-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b175e33b3ae7128fa377ac65480b548e227d267840c5d7509132f9691c909afc"
     end
   end
 
