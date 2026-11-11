@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.14"
+  version "0.1.15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.14/graphicle-0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "807bbde2ad317efbb1236a32601f1bf49a0c5d7ee0364e31047193d16a6c34bf"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.15/graphicle-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "3060386418d3df57de1cd1b018a53fb3ab66a0d6ac91652c322524286b412e9d"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.14/graphicle-0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "4d1b8f5053af9e8d4ef6d2c537c3377f775dcaf0d477d0e67767e06453d212dc"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.15/graphicle-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "32f213490f245ff4d4e470792595426cfbd7629a07cb5299ee990fa23d1913f4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.14/graphicle-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b213d86484ea9ef47f45c597c2513d5b789227a25328a3e1e04cc34eaf9668c8"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.15/graphicle-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6b223a7ad8d0d799b50f2627cf5e17411a3b5f789f84a7b2890fdc23db5669c3"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.14/graphicle-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7e35764d2952b661d7b32e804f56efa913eb4f294a03469b7daa979f8daa609c"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.15/graphicle-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b8432a8f755d4413945dd569d9967efeac0fc040c1583a86a455dc41f43fe759"
     end
   end
 
