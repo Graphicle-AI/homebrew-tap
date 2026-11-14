@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.16"
+  version "0.1.17"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.16/graphicle-0.1.16-aarch64-apple-darwin.tar.gz"
-      sha256 "bf90f3060e68ef775c1acc53113c9489f951c299bcde7a7f63b4f8499db46955"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.17/graphicle-0.1.17-aarch64-apple-darwin.tar.gz"
+      sha256 "d670db8170da9486744c71c08f36969f09755cbb7c6b79cbf3c2d216a8fb48f4"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.16/graphicle-0.1.16-x86_64-apple-darwin.tar.gz"
-      sha256 "3adf2ddba7ddf5162f3b59e527861b5ae7ac2d0dd9a7d4b6e587ba931f7008c4"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.17/graphicle-0.1.17-x86_64-apple-darwin.tar.gz"
+      sha256 "2d560e2db0bbd6ab962c0b6c0f86e2e846945dc9a53b27f6902b097aea58ea32"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.16/graphicle-0.1.16-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4f51602352c998c93090b08841a9fea7995a899d58bca9edb929497581b8dda2"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.17/graphicle-0.1.17-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "37577c644239a3f07f0c2a6a31529e57ec2b04a50fa65947dd165ff5f5bef502"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.16/graphicle-0.1.16-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cd308bd1beccc74d25d7ca715d2f3f56c7f7f5fd9cd64bd446533e28276919f9"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.17/graphicle-0.1.17-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5c554a44ad0f4dbfd1de9784a99912ea77c3f1e3e5fdd8bdbe50e207cf89ee22"
     end
   end
 
