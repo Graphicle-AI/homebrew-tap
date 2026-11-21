@@ -5,28 +5,28 @@
 class Graphicle < Formula
   desc "Persistent source-backed memory and code knowledge graphs for your work"
   homepage "https://github.com/graphicle-ai/graphicle"
-  version "0.1.18"
+  version "0.1.19"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.18/graphicle-0.1.18-aarch64-apple-darwin.tar.gz"
-      sha256 "6ad1bcf1057785973bbf6d4bfc633167dfa90a6636aa527c8f668c0bb9084c1a"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.19/graphicle-0.1.19-aarch64-apple-darwin.tar.gz"
+      sha256 "3969ca6897ac978e79514d92a48da587e344e796ccb993a6a10fc955a1c70ee2"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.18/graphicle-0.1.18-x86_64-apple-darwin.tar.gz"
-      sha256 "9b39b4bbad2a328734fa182a84f7369a37d667ba496d108f77527e474c2a6d37"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.19/graphicle-0.1.19-x86_64-apple-darwin.tar.gz"
+      sha256 "3d21ad9712c52547ca4c8f479da71fb6cb397de28b3de9241b7ac088cccb1390"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.18/graphicle-0.1.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a7c8384370d6162232586d316b29a3242807c4497bac8b81e47ac457a46853bf"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.19/graphicle-0.1.19-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9f4e53f70f2357f7872783fce569693bd69e123a5ffde9fecdd4c59b3f785a58"
     end
     on_intel do
-      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.18/graphicle-0.1.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "db99cb3fa8a3a8ee1850b14355d07090535c5f6be9a32b371a51b476a8a43159"
+      url "https://github.com/graphicle-ai/graphicle/releases/download/v0.1.19/graphicle-0.1.19-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3210eed45103b8c2656f7caabae2c5d4479473f15482f852ac62716224ee9e2a"
     end
   end
 
